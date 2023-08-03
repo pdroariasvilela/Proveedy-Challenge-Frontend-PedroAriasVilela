@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&family=Roboto:wght@300&display=swap");
+
+:root {
+  background-color: white;
+}
+body {
+  margin: 0;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.active {
+  background-color: #f48fb1;
+  color: white;
+}
