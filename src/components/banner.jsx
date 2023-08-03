@@ -1,21 +1,121 @@
-function Banner(){
-    return(
-        <Container>
-            <Left>
-                <ContainerText>
-                <h1>Ya no abandones los estudios por falta de tutor</h1>
-                <h5>Servicio de tutoria academica personalizada</h5>
-                <p>
-                    Convierte con facilidad cualquier video , documento , URL en un curso interactivo con asistente
-                    inteligente.Perfecto para empresas , profesionales y estudiantes.
-                </p>
-                <ParagraphBlue> Potenciado por inteligencia artificial</ParagraphBlue>
-                </ContainerText>
+import styled from "@emotion/styled";
+import imageOne from "../assets/laptop.png";
 
-                
-            </Left>
+const Container = styled.div`
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+`;
 
-            <Rigth></Rigth>
-        </Container>
-    )
+const BoxLeft = styled.div`
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+`;
+
+const BoxRigth = styled.div`
+  display: flex;
+  width: 900px;
+  height: 50%;
+  box-sizing: border-box;
+  overflow: hidden; /* Corrige la propiedad a overflow */
+
+
+  
+    img {
+       width: 100%;
+       object-fit: cover;
+    }
+`;
+
+const ContainerBox = styled.div`
+
+  margin-left: 30%;
+
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    color: #000;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: #000;
+    margin-bottom: 1rem;
+  }
+`;
+
+const ParagraphBlue = styled.div`
+  font-size: 1.2rem;
+
+  p {
+    color: #818cf8;
+  }
+`;
+
+const Button = styled.div`
+
+  background: #818cf8;
+  color: #fff;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  
+`;
+
+const ButtonMore = styled.div`
+
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: .9rem;
+  cursor: pointer;
+  
+`;
+
+function Banner() {
+  return (
+    <>
+    <Container>
+      <BoxLeft>
+        <ContainerBox>
+          <h1>Ya no abandones los estudios por falta de tutor</h1>
+          <p>Servicio de tutoria academica personalizada</p>
+
+          <p>
+            Convierte con tu felicidad cualquier video, documento o URL en un
+            curso interactivo con asistente inteligente. Perfecto para empresas,
+            profesionales y estudiantes
+          </p>
+
+          <ParagraphBlue>
+            <p>Potencido por Inteligencia Artificial</p>
+          </ParagraphBlue>
+
+          <Button>Crea un tutor gratis</Button>
+
+          <ButtonMore>Saber mas</ButtonMore>
+        </ContainerBox>
+      </BoxLeft>
+
+      <BoxRigth>
+        <img src={imageOne} alt="" />
+      </BoxRigth>
+    </Container>
+    <Container>
+        <>
+
+        </>
+    </Container>
+
+    </>
+  );
 }
+
+export default Banner;
