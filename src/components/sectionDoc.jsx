@@ -19,25 +19,34 @@ overflow: hidden; /* Corrige la propiedad a overflow */
 
 
   img {
-    
      width: 100%;
      object-fit: cover;
   }
+
+    @media (max-width: 999px) {
+        max-width: 100%;
+        margin-left: 7rem;
+    }
 
 `
 const Information = styled.div`
     width: 500px;
     display: flex;
-    justify-content: start;
     flex-direction: column;
-    gap: 1rem;;
+    gap: 1rem;
     line-height: 1.2;
+    margin-top: -5rem;
+    padding: 0 2rem;
 
     h5{
         display: flex;
         align-items: center;
         font-size: 1rem;
         gap : 0.5rem;
+    }
+
+    @media (max-width: 999px) {
+        max-width: 100%;
     }
 
 `
@@ -52,6 +61,7 @@ const ButtonQuiz = styled.div`
     border-radius: 10px;
     color: #fff;
     cursor: pointer;
+    margin-bottom: 2rem;
 
 `
 

@@ -6,6 +6,13 @@ const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @media (max-width: 999px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
 `;
 
 const BoxLeft = styled.div`
@@ -17,8 +24,8 @@ const BoxLeft = styled.div`
 `;
 
 const BoxRigth = styled.div`
-max-width: 500px;
-min-width: 40%;
+  max-width: 500px;
+  min-width: 40%;
   display: flex;
   height: 50%;
   box-sizing: border-box;
@@ -29,6 +36,11 @@ min-width: 40%;
     img {
        width: 100%;
        object-fit: cover;
+    }
+
+    @media (max-width: 999px) {
+      max-width: 100%;
+      margin-left: 7rem;
     }
 `;
 

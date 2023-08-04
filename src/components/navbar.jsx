@@ -9,6 +9,7 @@ const Container = styled.div`
     background: #020113;
     display: flex;
     justify-content: right;
+    flex-wrap: wrap;
 `;
 
 const Nav = styled.div`
@@ -19,6 +20,7 @@ const Nav = styled.div`
     height: 4rem;
     flex-shrink: 0;
     align-items: center;
+    flex-wrap: wrap;
 `
 
 const ButtonUp = styled.div`
@@ -35,6 +37,7 @@ const ButtonUp = styled.div`
 
 const Left = styled.div`
     display: flex;
+    flex-wrap: wrap;
 
     a{
         color: #fff;
@@ -49,6 +52,7 @@ const Left = styled.div`
 
 const Rigth = styled.div`
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
 `;
 
