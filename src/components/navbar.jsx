@@ -81,7 +81,7 @@ function NavBar(){
             <Rigth>
                 <ButtonUp><FiZap/>Upgrade</ButtonUp>
                 <ButtonUp style={{background:"#818CF8" , color:"#fff"}}><AiOutlinePlus/> Create Quiz</ButtonUp>
-                <ButtonUp style={{background:"#020113" , color:"#ffff"}}><VscBook/>Library</ButtonUp>
+                <ButtonUp style={{background:"#020113" , color:"#ffff"}}><VscBook/> My Library</ButtonUp>
                 <User><FaUserAlt/></User>
             </Rigth>
 

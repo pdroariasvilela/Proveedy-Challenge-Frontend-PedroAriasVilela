@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import {BsRobot} from "react-icons/bs";
+import {HiOutlineArrowNarrowRight} from "react-icons/hi";
 
 const Contenedor = styled.div`
     background: #f9f7f7;
@@ -45,6 +46,7 @@ const Info = styled.div`
 const LinkInfo = styled.div`
     p{
         color: #818cf8;
+        cursor: pointer;
     }
 `
 
@@ -66,7 +68,7 @@ function SectionInfo(){
                         <p>alimentaran a tu tutor inteligente</p>                      
                     </Info>
                     <LinkInfo>
-                        <p>Empezar aqui</p>
+                        <p>Empezar aqui <HiOutlineArrowNarrowRight/></p>
                     </LinkInfo>
                 </BoxItem>
 
@@ -83,7 +85,7 @@ function SectionInfo(){
                         <p>alimentaran a tu tutor inteligente</p>                      
                     </Info>
                     <LinkInfo>
-                        <p>Empezar aqui</p>
+                        <p>Empezar aqui <HiOutlineArrowNarrowRight/></p>
                     </LinkInfo>
                 </BoxItem>
 
@@ -100,7 +102,7 @@ function SectionInfo(){
                         <p>alimentaran a tu tutor inteligente</p>                      
                     </Info>
                     <LinkInfo>
-                        <p>Empezar aqui</p>
+                        <p>Empezar aqui <HiOutlineArrowNarrowRight/></p>
                     </LinkInfo>
                 </BoxItem>
             </ContainerBoxs>

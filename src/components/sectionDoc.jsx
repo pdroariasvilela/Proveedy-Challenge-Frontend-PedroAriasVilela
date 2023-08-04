@@ -1,5 +1,8 @@
 import styled from "@emotion/styled";
 import imgDoc from "../assets/documents.png";
+import {BiFastForward} from "react-icons/bi";
+import {ImLoop2} from "react-icons/im";
+import {BsFileCodeFill} from "react-icons/bs";
 
 const Container = styled.div`
 width: 100%;
@@ -30,6 +33,13 @@ const Information = styled.div`
     gap: 1rem;;
     line-height: 1.2;
 
+    h5{
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        gap : 0.5rem;
+    }
+
 `
 
 const ButtonQuiz = styled.div`
@@ -52,7 +62,7 @@ function SectionDoc(){
                 <img src={imgDoc} alt="" />
             </Image>
             <Information>
-                <p>Crea</p>
+                <p style={{color: "#818cf8" , fontWeight:"900"}}>Crea</p>
                 <h1>Suba tu información fácil</h1>
 
                 <p>Te presentamos la nueva forma de estudiar con resúmenes
@@ -60,11 +70,11 @@ function SectionDoc(){
                 </p>
 
                 <div>
-                    <h5>Fast</h5>
+                    <h5><BiFastForward/>Fast</h5>
                     <p style={{marginLeft:"1rem"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio  laudantium! Sunt voluptatum sequi libero blanditiis adipisci ullam. Laboriosam, impedit earum!</p>
-                    <h5>Flexible</h5>
+                    <h5><ImLoop2/>Flexible</h5>
                     <p style={{marginLeft:"1rem"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio  laudantium! Sunt voluptatum sequi libero blanditiis adipisci ullam. Laboriosam, impedit earum!</p>
-                    <h5>Integrated</h5>
+                    <h5><BsFileCodeFill/>Integrated</h5>
                     <p style={{marginLeft:"1rem"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio  laudantium! Sunt voluptatum sequi libero blanditiis adipisci ullam. Laboriosam, impedit earum!</p>
                 </div>
 

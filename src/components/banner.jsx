@@ -95,7 +95,7 @@ function Banner() {
           </p>
 
           <ParagraphBlue>
-            <p>Potencido por Inteligencia Artificial</p>
+            <p>Potenciado por Inteligencia Artificial</p>
           </ParagraphBlue>
 
           <Button>Crea un tutor gratis</Button>
