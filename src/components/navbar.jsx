@@ -53,6 +53,7 @@ const Rigth = styled.div`
 `;
 
 const User = styled.div`
+margin-right: 3rem;
     width: 2.5rem;
     height: 2.5rem;
     flex-shrink: 0;
