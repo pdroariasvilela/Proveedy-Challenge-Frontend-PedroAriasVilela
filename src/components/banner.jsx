@@ -21,6 +21,10 @@ const BoxLeft = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    @media (max-width: 999px) {
+      margin-left: -20%;
+    }
+    
 `;
 
 const BoxRigth = styled.div`
