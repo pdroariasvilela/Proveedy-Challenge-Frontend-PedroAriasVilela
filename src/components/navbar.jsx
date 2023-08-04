@@ -7,6 +7,9 @@ import { FaUserAlt } from "react-icons/fa";
 const Container = styled.div`
   width: 100%;
   background: #020113;
+  display: flex;
+  justify-content: right;
+
 `;
 
 const Nav = styled.div`
@@ -18,6 +21,7 @@ const Nav = styled.div`
   flex-shrink: 0;
   align-items: center;
   flex-wrap: wrap;
+  
 
   @media (max-width: 1125px) {
     justify-content: flex-end;
@@ -87,6 +91,7 @@ const User = styled.div`
 `;
 
 const MenuIcon = styled.div`
+margin-right: 3rem;
   display: none;
   font-size: 1.5rem;
   cursor: pointer;
