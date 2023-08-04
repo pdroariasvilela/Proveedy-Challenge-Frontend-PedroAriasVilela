@@ -62,7 +62,7 @@ function SectionDoc(){
                 <img src={imgDoc} alt="" />
             </Image>
             <Information>
-                <p style={{color: "#818cf8" , fontWeight:"900"}}>Crea</p>
+                <p style={{color: "#818cf8" , fontWeight:"900" , marginTop:"150px" , cursor:"pointer", borderBottom:"1px solid", width:"35px"}}>Crea</p>
                 <h1>Suba tu información fácil</h1>
 
                 <p>Te presentamos la nueva forma de estudiar con resúmenes
