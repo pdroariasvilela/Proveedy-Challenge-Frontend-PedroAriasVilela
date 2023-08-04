@@ -9,15 +9,17 @@ const Container = styled.div`
 `;
 
 const BoxLeft = styled.div`
-    width: 700px;
+    max-width: 500px;
+    min-width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 `;
 
 const BoxRigth = styled.div`
+max-width: 500px;
+min-width: 40%;
   display: flex;
-  width: 900px;
   height: 50%;
   box-sizing: border-box;
   overflow: hidden; /* Corrige la propiedad a overflow */
@@ -32,7 +34,7 @@ const BoxRigth = styled.div`
 
 const ContainerBox = styled.div`
 
-  margin-left: 30%;
+  margin-left: 20%;
 
   h1 {
     font-size: 3.5rem;
@@ -107,11 +109,6 @@ function Banner() {
       <BoxRigth>
         <img src={imageOne} alt="" />
       </BoxRigth>
-    </Container>
-    <Container>
-        <>
-
-        </>
     </Container>
 
     </>
