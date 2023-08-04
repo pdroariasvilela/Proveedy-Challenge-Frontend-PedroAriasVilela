@@ -24,8 +24,7 @@ overflow: hidden; /* Corrige la propiedad a overflow */
   }
 
     @media (max-width: 999px) {
-        max-width: 100%;
-        margin-left: 7rem;
+        width: 100%;
     }
 
 `
